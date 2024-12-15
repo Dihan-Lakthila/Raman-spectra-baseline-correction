@@ -59,8 +59,8 @@ def process_spectra(input_folder, output_folder, lam=300, lam1=0.001, p=0.01):
 
 if __name__ == "__main__":
     # Define your input and output folders
-    input_folder = r"C:\Users\ASUS\Desktop\Research\Results\Raman\21.11.2024 - GSH, EDC reproduce, Aptamer series, Fluoride series\GSH series"
-    output_folder = r"C:\Users\ASUS\Desktop\Research\Results\Raman\21.11.2024 - GSH, EDC reproduce, Aptamer series, Fluoride series\GSH series baseleine corrected"
+    input_folder = r"C:\Users\ASUS\Desktop\Research\Results\Raman\05.12.2024 - Fluoride series with and without heat fold\Fluoride series without heatfold"
+    output_folder = r"C:\Users\ASUS\Desktop\Research\Results\Raman\05.12.2024 - Fluoride series with and without heat fold\Fluoride series without heatfold baseline corrected"
     
     # Process all spectra with the specified parameters
     process_spectra(input_folder, output_folder, lam=300, lam1=0.001, p=0.01)
